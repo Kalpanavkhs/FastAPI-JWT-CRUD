@@ -102,3 +102,4 @@ def delete_user(user_id: int, db: Session = Depends(get_db),current_user: int=De
 
     db.delete(user)
     db.commit()
+
